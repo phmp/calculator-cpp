@@ -31,7 +31,7 @@ std::vector < std::string > parse (std::string input){
     
 }
 
-calculate(int a , std::string math_operator, int b){
+int calculate(int a , std::string math_operator, int b){
 
     std::cout << std::endl<< a << math_operator<< b << std::endl;
    
